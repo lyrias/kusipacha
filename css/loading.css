@@ -1,0 +1,20 @@
+.loading {
+  background-image: url('../images/logo-kusi.png'), var(--gradient);
+  background-repeat: no-repeat;
+  background-position: center;
+  block-size: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s opacity;
+  position: absolute;
+  inset: 0;
+}
+
+.loading[hidden] {
+  visibility: hidden;
+  opacity: 0;
+}
+
+
+

@@ -1,0 +1,45 @@
+
+#contenedor {
+    background: var(--gradient2);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    border-radius: .5rem;
+}
+
+#caja1, #caja2, #caja3 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20%;
+    
+    width: 100px;
+    height: 100px;
+    color:azure; 
+}
+
+
+#caja2 h2 {
+    margin: 0;
+    font-size: 1em;  
+}
+#caja2 p {
+    margin: 0;
+    font-size: 2em;  
+}
+#caja3 h1 {
+    margin: 0;
+    font-size: 2em;  
+}
+#caja3 h3 {
+    margin: 0;
+    font-size: .8em;  
+}
+#weather-temp {
+    margin: 0; 
+}
+#weather-date {
+    margin: 2.5px; 
+    font-size: 1em;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <meta name="description" content="La mejor aplicación del clima">
+  <meta name="author" content="Esteban Pajares">
+  <title>Weather App</title>
+
+  <meta property="og:title" content="Weather App" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://weather-app-teal-six-76.vercel.app/" />
+  <meta property="og:image"
+    content="https://github.com/EstebanPajares/weather-app/blob/main/images/openGraph.png?raw=true" />
+  <meta property="og:description"
+    content="Descubre el pronóstico del clima en la siguiente app y programa tus actividades" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+
+</head>
+
+<body>
+  <div class="loading" id="loading"></div>
+
+  <div class="app" id="app" hidden>
+    <div id="contenedor">
+      <div id="caja1">
+        <h1 id="weather-temp"></h1>
+        <p id="weather-date" class="Weather-date"></p>
+      </div>
+      <div id="caja2">
+        <h2 id="weather-city"></h2>
+        <img id="icono-animado" src="" alt="" height="64" width="64">
+      </div>
+      <div id="caja3">
+        <h3>Veloc. del Viento</h3>
+        <h1 id="weather-speed"></h1>
+      </div>
+    </div>
+
+    <div class="logo-app">
+      <img src="../images/logo-kusi.png" alt="" class="logo-app-fondo">
+    </div>
+    <div class="weeklyWeather">
+      <div class="weeklyWeather-marker" data-marker=true></div>
+      <div class="tabs" id="tabs">
+        <div class="tabList" role="tablist">
+          <div class="tab" role="tab" aria-selected="true" id="tab-0">
+            Lunes
+
+          </div>
+          <div class="tab" role="tab" id="tab-1">
+            Martes
+          </div>
+          <div class="tab" role="tab" id="tab-2">
+            Miercoles
+          </div>
+          <div class="tab" role="tab" id="tab-3">
+            Viernes
+          </div>
+          <div class="tab" role="tab" id="tab-4">
+            Jueves
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <footer>
+    <p>Derechos de autor © 2023. Mi sitio web.</p>
+    <p>Contáctanos en info@misitioweb.com</p>
+  </footer>
+  <script src="./js/index.js" type="module"></script>
+
+
+
+</body>
+
+
+</html>
