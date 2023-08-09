@@ -1,13 +1,14 @@
 
 
 .main{
+
     margin: auto;
     width: 100%;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0.472), rgba(255, 255, 255, 0.365));
     overflow: hidden;
     padding: .7em;
     border-radius: 1em;
-
+    
     display: grid;
     grid-auto-rows: max-content;
     grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
@@ -87,9 +88,8 @@
 #caja1, #caja2, #caja3 {
     display: inline-block;
     text-align: center;
-       
-    width: 170px;
-    height: 150px;
+    width: 100px;
+    height: 10px;
     color:azure; 
     font-size: 10px;
 }
