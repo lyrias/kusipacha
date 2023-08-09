@@ -53,7 +53,9 @@
     justify-items: center;
     gap: 1.5em;
 }
-
+#n-fert, #p-fert, #k-fert{
+    border: 1px solid black;
+}
 .main__input{
     width: 80%;
     max-width: 500px;
@@ -61,6 +63,7 @@
     border: none;
     padding: 1em;
     font: inherit;
+    border: 1px solid black;
     border-radius: .6em;
 }
 
@@ -79,10 +82,7 @@
 }
 
 
-#contenedor {
-    
-    
-}
+
 
 #caja1, #caja2, #caja3 {
     display: inline-block;
