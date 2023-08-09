@@ -5,9 +5,8 @@
   /* transform: translateY(calc(100% - 1.5rem)); */
   user-select: none;
   touch-action: none;
-  width: 100%;
 }
-/*
+
 .weeklyWeather.is-active {
   transition: .2s transform;
   transform: translateY(0);
@@ -21,8 +20,8 @@
 .weeklyWeather-marker:active {
   cursor: row-resize;
 
-}*/
-/*
+}
+
 .weeklyWeather-marker:before {
   content: '';
   position: absolute;

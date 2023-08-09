@@ -5,19 +5,15 @@
 @import './day-weather.css';
 @import './loading.css';
 @import './style.css';
-
 .app {
   block-size: 100vh;
-  margin-top: -70px;
   background-image:var(--gradient);
   background-size: cover;
   background-position: right bottom;
   display: flex;
- 
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-
   gap: 1rem;
 }
 
