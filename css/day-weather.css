@@ -1,5 +1,6 @@
 .dayWeather {
- /*border: 1px solid yellow; */
+ /*border: 1px solid yellow; 
+*/
 }
 
 .dayWeather-list {
@@ -8,10 +9,12 @@
   list-style: none;
   padding: initial;
   gap: 1rem;
+  margin: 0 auto;
   inline-size: calc(100vw - 2rem);
 }
 
 .dayWeather-item {
+   margin: 0 auto;
   inline-size: 4rem;
   flex-shrink: 0;
   display: flex;

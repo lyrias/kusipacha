@@ -43,10 +43,6 @@ function configWeeklyWeather(weeklist){
         day.forEach((weather, indexWeather)=>{
 
             $panel.querySelector('.dayWeather-list').append(createPeriodTime(weather))
-
-            //$panel.append(createWeatherSummary(weather, index))
-
-        
             })
 
         })
