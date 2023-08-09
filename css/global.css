@@ -1,7 +1,7 @@
 :root {
   --white: #eff0f3;
   --black: #41c9db;
-  --primary: #0ffe7d;
+  --primary: #eff0f3;
   --grey: #21a5b7;
   --bg: #008092;
   --gradient: linear-gradient(0deg, #64b0dd 0%, #2b7fbb 100%);
@@ -16,7 +16,6 @@
   --body2-bold: 700 0.75rem/normal serif;
   --button-button: 600 0.875rem/1rem serif;
   --caption-caption: 400 0.6875rem/normal serif;
-
 }
 
 body {
