@@ -6,6 +6,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
     border-radius: .5rem;
+
 }
 
 #caja1, #caja2, #caja3 {

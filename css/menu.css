@@ -18,6 +18,8 @@ header{
     left: 0;
     height: 80px;
     width: 100%;
+    background: #2b7fbb;
+    margin-top: -20px;
     padding: 0 8%;
     display: flex;
     justify-content: space-between;
@@ -85,6 +87,7 @@ header{
     position: absolute;
     top: 0;
     left: 0;
+    margin-top: -50px;
     background-color:#2b7fbb;
     display: flex;
     justify-content: center;
