@@ -1,5 +1,5 @@
 .loading {
-  background-image: url('../images/logo-kusi.png'), var(--gradient);
+  background-image: url('../images/logo-kusi.png'),#abdecb;
   background-repeat: no-repeat;
   background-position: center;
   block-size: 100vh;

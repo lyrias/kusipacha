@@ -4,6 +4,9 @@
   --primary: #eff0f3;
   --grey: #21a5b7;
   --bg: #008092;
+  --fondo:#abdecb;
+  --cosas:#f5b494;
+  --black:#343333;
   --gradient: linear-gradient(0deg, #64b0dd 0%, #2b7fbb 100%);
   --gradient2: linear-gradient(0deg, #41c9db 0%, #008092 100%);
   --subtitle2: 600 0.75rem/normal serif;
@@ -21,7 +24,7 @@
 body {
   margin: 0;
   font: var(--body1-regular);
-  background: #64b0dd;
+  background: var(--fondo);
   /* Así evitamos el bounce scroll en la página en iOS */
   /*position: fixed; */
   overflow: hidden;

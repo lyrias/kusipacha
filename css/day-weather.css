@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  background: var(--black);
+  background: #ede7a5;
   border-radius: 58px;
   padding-block: 1rem;
 }
@@ -43,7 +43,7 @@
 }
 
 .dayWeather-item.is-selected {
-  box-shadow: inset 0 0 0 2px var(--primary);
+  box-shadow: inset 0 0 0 2px #f5b494;
 }
 
 .dayWeather-summary {
@@ -54,7 +54,7 @@
 }
 
 .dayWeather-summary > * {
-  color: var(--white);
+  color: #121212;
   margin-inline-start: 1rem;
   margin-block-end: 1rem;
 }

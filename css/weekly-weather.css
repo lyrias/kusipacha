@@ -1,5 +1,5 @@
 .weeklyWeather {
-  background: var(--bg);
+  background: red;
   /* block-size: 500px; */
   border-radius: 1rem 1rem 0 0;
   /* transform: translateY(calc(100% - 1.5rem)); */
@@ -29,7 +29,7 @@
   inline-size: 4rem;
   border-radius: .25rem;
   block-size: .25rem;
-  background: var(--white);
+  background: #121212;
   margin: auto;
   inset-block-start: .5rem;
   inset-inline-start: 0;

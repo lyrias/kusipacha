@@ -1,5 +1,5 @@
 :root {
-  --gradient: linear-gradient(0deg, #64b0dd 0%, #2b7fbb 100%);
+    --fondo:#abdecb;;
  
 }
 *{
@@ -18,7 +18,7 @@ header{
     left: 0;
     height: 80px;
     width: 100%;
-    background: #2b7fbb;
+    background: var(--fondo);
     margin-top: -20px;
     padding: 0 8%;
     display: flex;
@@ -88,7 +88,7 @@ header{
     top: 0;
     left: 0;
     margin-top: -50px;
-    background-color:#2b7fbb;
+    background-color:var(--fondo);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +108,7 @@ ul{
     font-size: 20px;
     font-weight: 600;
     margin: 2rem auto;
-    color: #f2f2f2;
+    color: #121212;
     opacity: 0.3;
     cursor: pointer;
     text-transform: uppercase;
@@ -140,8 +140,8 @@ ul{
 }
 #link-app{
     text-decoration: none;
-    color: #f2f2f2;
+    color: #121212;
 }
 #link-app:hover{
-    color: #f2f2f2;
+    color: #121212;
 }

@@ -4,8 +4,8 @@
 @import './loading.css';
 @import './style.css';
 .app {
-  margin-top: 50px;
-  background-image:var(--gradient);
+  margin-top: 63px;
+  background-image:var(--fondo);
   background-size: cover;
   background-position: right bottom;
   display: flex;
