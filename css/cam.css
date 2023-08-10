@@ -1,0 +1,163 @@
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #abdecb;
+    font-family: "Muli-Regular";
+    font-size: 12px;
+    margin: 0;
+}
+#label-container{
+    font-weight: 900;
+}
+.result {
+    font-family: "Muli-Regular";
+    color: #013220;
+    left: 30%;
+    bottom: 28px;
+    font-size: 20px;
+    position: fixed;
+    top: 450px;
+}
+
+button {
+    font-family: "Muli-Regular";
+}
+
+.heading {
+    letter-spacing: 1px;
+    color: #013220;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 900;
+    align-items: center;
+    top: 60px;
+
+}
+.heading p{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img {
+    border-radius: 24px;
+    width: 176px;
+    height: 176px;
+    left: 904px;
+    top: 90px;
+}
+
+.imgbox {
+    background-image: url("../images/descarga.jpg");
+    transition: box-shadow .3s;
+    border-radius: 24px;
+    border: 1px #696969;
+    width: 176px;
+    height: 176px;
+    left: 904px;
+    top: 180px;
+    text-align: center;
+}
+
+
+
+.imgbox:hover .img {
+    opacity: 0.3;
+}
+
+.imgbox:hover .middle {
+    opacity: 1;
+}
+
+
+form {
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    width: 264px;
+    height: 304px;
+    background-color: #ede7a5;
+    position: fixed;
+    padding: 40px 40px 40px;
+    top: 130px;
+    left: 40%;
+    border: 1px #696969;
+}
+
+button {
+    border: none;
+    width: 96%;
+    height: 45px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: #013220;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Muli-SemiBold";
+    font-size: 12px;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+
+}
+
+button span {
+    position: relative;
+    z-index: 2;
+}
+
+button span {
+    position: relative;
+    z-index: 2;
+}
+
+button:before,
+button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 128, 0, 0.3);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+    -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+
+button:after {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+button:hover:before,
+button:hover:after {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+body {
+    overflow: hidden;
+}
+
+    
+  
