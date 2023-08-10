@@ -20,10 +20,10 @@ const startCamera = async (facingMode) => {
 };
 
 // Cambiar entre cámaras frontal y trasera
-//const toggleCamera = () => {
-//    const facingMode = (currentStream && currentStream.getVideoTracks()[0].getSettings().facingMode === 'user') ? 'environment' : 'user';
-//    startCamera(facingMode);
-//};
+const toggleCamera = () => {
+    const facingMode = (currentStream && currentStream.getVideoTracks()[0].getSettings().facingMode === 'user') ? 'environment' : 'user';
+    startCamera(facingMode);
+};
 
 // Iniciar con la cámara frontal
 startCamera('user');

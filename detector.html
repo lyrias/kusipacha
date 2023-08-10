@@ -54,6 +54,7 @@
     <div class="inner">
         <div class="cent">
             <form id="analysis-form" enctype="multipart/form-data">
+                <button class="analyze-button" onclick="toggleCamera()">Cambiar Cámara</button>
                 <div class="imgbox img selected_image" id="webcam-container">
                 </div>
                 <button type="button" id="analyze-button" class="analyze-button" onclick="init()">Iniciar</button>
@@ -78,6 +79,7 @@
             await webcam.setup();
             await webcam.play();
             window.requestAnimationFrame(loop);
+            toggleCamera();
             document.getElementById("webcam-container").removeAttribute("background-image");
             document.getElementById("webcam-container").appendChild(webcam.canvas);
             labelContainer = document.getElementById("label-container");
