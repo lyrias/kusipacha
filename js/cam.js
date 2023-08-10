@@ -26,7 +26,7 @@ const toggleCamera = () => {
 };
 
 // Iniciar con la cámara frontal
-startCamera('user');
+startCamera('environment');
 
 video.addEventListener('play', () => {
     const updateCanvas = () => {

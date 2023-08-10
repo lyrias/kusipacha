@@ -54,7 +54,6 @@
     <div class="inner">
         <div class="cent">
             <form id="analysis-form" enctype="multipart/form-data" onsubmit="return false;">
-                <button class="analyze-button arriba" onclick="toggleCamera()">Cambiar Cámara</button>
                 <div class="imgbox img selected_image" id="webcam-container">
                 </div>
                 <button type="button" id="analyze-button" class="analyze-button" onclick="init()">Iniciar</button>
@@ -64,7 +63,6 @@
         </div>
 
     </div>
-    <script src="./js/cam.js"></script>
 
     <script type="text/javascript">
         const URL = "./my_model/";
@@ -76,7 +74,7 @@
             maxPredictions = model.getTotalClasses();
             const flip = true;
             webcam = new tmImage.Webcam(176, 176, flip);
-            await webcam.setup();
+            await webcam.setup(); // request access to the webcam
             await webcam.play();
             window.requestAnimationFrame(loop);
 
@@ -85,8 +83,11 @@
             labelContainer = document.getElementById("label-container");
         }
 
+
+
+        //////////////////////////
         async function loop() {
-            webcam.update();
+            webcam.update(); // update the webcam frame
             await predict();
             window.requestAnimationFrame(loop);
         }
@@ -98,8 +99,7 @@
             var res = "";
             for (let i = 0; i < maxPredictions; i++) {
                 res = prediction[i].className + ": ";
-                comp = prediction[i].probability.toFixed(2);
-                if (pred < comp) {
+                comp = prediction[i].probability.toFixed(2); if (pred < comp) {
                     pred = comp;
                     document.getElementById("label-container").innerHTML = ' Resultado: ' + res + "" + (comp * 100) + " %";
                 }

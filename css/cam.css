@@ -21,8 +21,9 @@ body {
 }
 .result {
     font-family: "Muli-Regular";
-    color: #013220;
     left: 30%;
+    width: 15em;
+    height: 50px;
     bottom: 28px;
     font-size: 20px;
     position: fixed;
@@ -72,7 +73,7 @@ button {
 
 .imgbox {
     background-image: url("../images/descarga.jpg");
-    transition: box-shadow .3s;
+    display: box-shadow .3s;
     border-radius: 24px;
     border: 1px #696969;
     width: 176px;
