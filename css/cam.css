@@ -12,6 +12,10 @@ body {
     font-size: 12px;
     margin: 0;
 }
+.inner{
+   
+    width: 100%;
+}
 #label-container{
     font-weight: 900;
 }
@@ -24,7 +28,15 @@ body {
     position: fixed;
     top: 450px;
 }
-
+.inner {
+  position: relative;
+}
+.cent{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
 button {
     font-family: "Muli-Regular";
 }
@@ -87,9 +99,9 @@ form {
     position: fixed;
     padding: 40px 40px 40px;
     top: 130px;
-    left: 40%;
     border: 1px #696969;
 }
+
 
 button {
     border: none;

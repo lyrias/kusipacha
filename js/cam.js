@@ -1,6 +1,6 @@
 const video = document.createElement('video');
 const canvas = document.getElementById('webcam-container');
-const context = canvas.getContext('2d');
+//const context = canvas.getContext('2d');
 let currentStream;
 
 // Función para acceder a la cámara
@@ -31,7 +31,7 @@ startCamera('user');
 video.addEventListener('play', () => {
     const updateCanvas = () => {
         if (!video.paused && !video.ended) {
-            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+            //context.drawImage(video, 0, 0, canvas.width, canvas.height);
             requestAnimationFrame(updateCanvas);
         }
     };

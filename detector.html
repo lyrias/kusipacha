@@ -52,13 +52,16 @@
         <p>DETECTOR DE ENFERMEDADES</p>
     </div>
     <div class="inner">
-        <form id="analysis-form" enctype="multipart/form-data">
-            <div class="imgbox img selected_image" id="webcam-container">
-            </div>
-            <button type="button" id="analyze-button" class="analyze-button" onclick="init()">Iniciar</button>
-            <div id="label-container" class="result"><b>Resultado : </b></div>
-            <canvas id="cameraCanvas"></canvas>
-        </form>
+        <div class="cent">
+            <form id="analysis-form" enctype="multipart/form-data">
+                <div class="imgbox img selected_image" id="webcam-container">
+                </div>
+                <button type="button" id="analyze-button" class="analyze-button" onclick="init()">Iniciar</button>
+                <div id="label-container" class="result"><b>Resultado : </b></div>
+                <canvas id="cameraCanvas"></canvas>
+            </form>
+        </div>
+
     </div>
     <script src="./js/cam.js"></script>
 
