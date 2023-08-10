@@ -17,7 +17,7 @@ body {
     width: 100%;
 }
 #label-container{
-    font-weight: 900;
+    font-weight: 1000px;
 }
 .result {
     font-family: "Muli-Regular";
@@ -26,7 +26,7 @@ body {
     bottom: 28px;
     font-size: 20px;
     position: fixed;
-    top: 450px;
+    top: 495px;
 }
 .inner {
   position: relative;
@@ -36,6 +36,9 @@ body {
   top: 50%;
   left: 30%;
   transform: translate(-50%, -50%);
+}
+.arriba{
+    margin-top: -30px;
 }
 button {
     font-family: "Muli-Regular";
@@ -94,7 +97,7 @@ form {
     border-radius: 24px;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
     width: 264px;
-    height: 304px;
+    height: 350px;
     background-color: #ede7a5;
     position: fixed;
     padding: 40px 40px 40px;
